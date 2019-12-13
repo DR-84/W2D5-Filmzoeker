@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> IMDb InternetMovieDaanbanaan</title>
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <header id="topbanner">
+        <h1>Daan Banaan's film opzoek boek</h1>
+    </header>
+    <nav class="navigatie">
+        <div>
+            <p>make a selection</p>
+        </div>
+        <div><input type="radio" id="recentmovies" onchange="" name="filter" value="2014" checked>
+            <label for="recent-movies">Recent movies 2014 - Today</label>
+        </div>
+        <div><input type="radio" id="avengers" onchange="" name="filter" value="avenger">
+            <label for="avenger-movies">Avenger Movies</label>
+        </div>
+        <div><input type="radio" id="xmen" onchange="" name="filter" value="xmen">
+            <label for="xmen-movies">X-Men Movies</label>
+        </div>
+        <div><input type="radio" id="princess" onchange="" name="filter" value="princess">
+            <label for="princess-movies">Princess Movies</label>
+        </div>
+        <div><input type="radio" id="batman" onchange="" name="filter" value="batman">
+            <label for="batman-movies">Batman Movies</label>
+        </div>
+
+    </nav>
+    <div class="canvas">
+        <ul id="tiles">
+        </ul>
+    </div>
+    <script type="text/javascript" src="movies.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
